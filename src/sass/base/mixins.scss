@@ -1,0 +1,57 @@
+@mixin roboto {
+    font-family: 'Roboto Flex', sans-serif !important;
+  } // roboto
+  
+  @mixin source {
+    font-family: 'Source Sans Pro', sans-serif !important;
+  } // source
+  
+  @mixin sans {
+    font-family: 'Open Sans', sans-serif !important;
+  }
+  
+  @mixin raleway {
+    font-family: 'Raleway', sans-serif !important;
+  }
+  
+
+
+  @mixin oxygenl {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @mixin oxygenr {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @mixin oxygenb {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  // box-shadows
+  @mixin box {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  @mixin box1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @mixin text {
+    text-shadow: 2px 2px 2px rgba(126, 87, 194, 1);
+  }
+
+  @mixin text1 {
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
+  }
+  
+  @mixin textdown {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
