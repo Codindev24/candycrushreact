@@ -1,0 +1,22 @@
+@import 'base/base';
+@import 'base/colors';
+@import 'base/mixins';
+
+.app {
+display: flex;
+padding: 30px;
+
+.candycrush {
+ display: flex;
+ flex-wrap: wrap;
+ width: 560px;
+ height: 560px;
+ 
+img {
+ width: 70px;
+ height: 70px;
+}// img 
+
+}// .candycrush
+
+}// .app
