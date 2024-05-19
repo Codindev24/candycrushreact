@@ -82,15 +82,18 @@ const App = () => {
     }
    }
 
-   const dragStart = () => {
+   const dragStart = (e) => {
+    console.log(e.target)
     console.log('drag start')
    }
 
-   const dragDrop = () => {
+   const dragDrop = (e) => {
+    console.log(e.target)
     console.log('drag drop')
    }
 
-   const dragEnd = () => {
+   const dragEnd = (e) => {
+    console.log(e.target)
     console.log('drag end')
    }
 
